@@ -1,8 +1,16 @@
 #app {
   max-width: 850px;
   margin: 0 auto;
+
+  .jumbotron {
+    min-height: 90vh;
+  }
 }
 
 nav {
   padding: 20px 0;
+}
+
+.btn-margin {
+  margin: 10px 0;
 }
