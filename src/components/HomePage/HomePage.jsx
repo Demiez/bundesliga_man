@@ -8,7 +8,7 @@ const HomePage = () => (
         <h1>BundesLiga Manager</h1>
         <p>Manage information about BundesLiga, Teams, Players and Current Standings</p>
         <img src={image01} alt="bundes champion" />
-        <Link to="about" className="btn btn-primary btn-lg">
+        <Link to="basicinfo" className="btn btn-primary btn-lg">
             Learn more
         </Link>
     </div>

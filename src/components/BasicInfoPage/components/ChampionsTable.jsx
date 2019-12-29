@@ -1,8 +1,7 @@
 import React from 'react';
-import { convertSimpleDate } from '../../utils/dataConverter';
+import { convertSimpleDate } from '../../../utils/dataConverter';
 
-const TableBuilder = ({ columns, data }) => {
-    console.log(data);
+const ChampionsTable = ({ columns, data }) => {
 
     return (
         <table className="table">
@@ -26,4 +25,4 @@ const TableBuilder = ({ columns, data }) => {
     )
 }
 
-export default TableBuilder;
+export default ChampionsTable;

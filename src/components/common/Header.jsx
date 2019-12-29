@@ -10,16 +10,12 @@ const Header = () => {
                 Home
             </NavLink>
             {" | "}
-            <NavLink to="/teams" activeStyle={activeStyle}>
-                Playing Teams
+            <NavLink to="/basicinfo" activeStyle={activeStyle}>
+                Basic Info
             </NavLink>
             {" | "}
-            <NavLink to="/games" activeStyle={activeStyle}>
-                Finished Games
-            </NavLink>
-            {" | "}
-            <NavLink to="/standings" activeStyle={activeStyle}>
-                Current Standings
+            <NavLink to="/managerpanel" activeStyle={activeStyle}>
+                Manager Panel
             </NavLink>
             {" | "}
             <NavLink to="/about" activeStyle={activeStyle}>

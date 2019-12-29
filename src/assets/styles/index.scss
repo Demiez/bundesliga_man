@@ -4,6 +4,26 @@
 
   .jumbotron {
     min-height: 90vh;
+    
+    .show > .dropdown-menu {
+      display: block;
+      position: absolute;
+    }
+    .team:hover {
+      cursor: pointer;
+      border-bottom: 1px solid #F15B0A;
+    }
+    .squad {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      & > div {
+        flex: 0 50%;
+        border: 1px solid black;
+        margin-bottom: 1px;
+        text-align: center;
+      }
+    }
   }
 }
 
