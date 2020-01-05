@@ -3,7 +3,7 @@ import BasicInfo from './components/BasicInfo';
 import ChampionsTable from './components/ChampionsTable';
 import { getBasicInfo } from '../../utils/fetches';
 
-const AboutPage = () => {
+const BasicInfoPage = () => {
 
     const [basicInfo, setBasicInfo] = useState({});
     const columns = {
@@ -39,4 +39,4 @@ const AboutPage = () => {
 
 }
 
-export default AboutPage;
+export default BasicInfoPage;
